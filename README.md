@@ -7,9 +7,9 @@ Este repositorio contiene los códigos para las simulaciones, cálculo de la pro
 ## Archivos del Repositorio
 
 * **`propagación_de_errores_tópicos.py`**: Script de Python que calcula la densidad del aire, el parámetro de arrastre ($B$), con sus respectivas propagaciones de incertidumbres, el ajuste de los datos experimentales para determinar las velocidades iniciales de cada medición, aplicación de RMSE 2D y el error porcentual asociado al alcance horizontal y altura máxima de los lanzamientos.
-* **`volveynuevo2(benja).csv`**: Datos experimentales (tiempo y posición en X e Y medida en píxeles) entregados por el software Vernier Video Analysis al trackear la trayectoria de la pelota de vóleibol.
-* **`tenisnuevo2.csv`**: Datos experimentales (tiempo y posición en X e Y medida en píxeles) entregados por el software Vernier Video Analysis al trackear la trayectoria de la pelota de tenis.
-* **`pingpongnuevo(benja).csv`**: Datos experimentales (tiempo y posición en X e Y medida en píxeles) entregados por el software Vernier Video Analysis al trackear la trayectoria de la pelota de pingpong.
+* **`voley.csv`**: Datos experimentales (tiempo y posición en X e Y medida en píxeles) entregados por el software Vernier Video Analysis al trackear la trayectoria de la pelota de vóleibol.
+* **`tenis.csv`**: Datos experimentales (tiempo y posición en X e Y medida en píxeles) entregados por el software Vernier Video Analysis al trackear la trayectoria de la pelota de tenis.
+* **`pingpong.csv`**: Datos experimentales (tiempo y posición en X e Y medida en píxeles) entregados por el software Vernier Video Analysis al trackear la trayectoria de la pelota de pingpong.
 
 ---
 
@@ -24,7 +24,7 @@ El código está escrito en **Python 3** haciendo uso de las siguientes librerí
 Para instalarlas se puede ejecutar lo siguiente en la terminal:
 
 ```bash
-pip install pandas numpy matplotlib scipy
+pip install pandas numpy matplotlib
 ```
 
 ---
