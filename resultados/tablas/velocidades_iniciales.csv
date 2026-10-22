@@ -1,4 +1,4 @@
-balon,vx0_m_s,incertidumbre_vx0_m_s,vy0_m_s,incertidumbre_vy0_m_s,v0_m_s,incertidumbre_v0_m_s
+Balón,vx0 (m/s),Incertidumbre vx0 (m/s),vy0 (m/s),Incertidumbre vy0 (m/s),v0 (m/s),Incertidumbre v0 (m/s)
 Tenis,2.882,0.023,5.867,0.035,6.536,0.033
 Ping-pong,2.962,0.037,4.479,0.049,5.370,0.045
 Voleibol,2.713,0.042,4.643,0.050,5.377,0.048

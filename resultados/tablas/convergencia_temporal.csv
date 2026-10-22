@@ -1,4 +1,4 @@
-balon,dt_grueso_s,dt_fino_s,diferencia_RMS_m,orden_convergencia_p
+Balón,dt grueso (s),dt fino (s),Diferencia RMS (m),Orden convergencia p
 Tenis,0.004,0.002,0.006203,
 Tenis,0.002,0.001,0.003101,1.000
 Tenis,0.001,0.0005,0.001550,1.000
