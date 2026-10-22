@@ -20,7 +20,6 @@ El código está escrito en **Python 3** haciendo uso de las siguientes librerí
 * `pandas`
 * `numpy`
 * `matplotlib`
-* `scipy`
 
 Para instalarlas se puede ejecutar lo siguiente en la terminal:
 
