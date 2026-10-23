@@ -1,4 +1,4 @@
-Balón,B (kg/m),Variación B (kg/m),RMSE con roce (m),RMSE sin roce (m)
-Tenis,0.001182,0.000105,0.1665,0.2499
-Ping-pong,0.000407,0.000026,0.1615,0.2831
-Voleibol,0.007930,0.000995,0.0659,0.1358
+Balón,B (kg/m),Incertidumbre B (kg/m),Incertidumbre promedio X (m),Incertidumbre promedio Y (m),RMSE con roce (m),RMSE sin roce (m)
+Tenis,0.001182,0.000105,0.0129,0.0109,0.1665,0.2499
+Ping-pong,0.000407,0.000026,0.0081,0.0068,0.1615,0.2831
+Voleibol,0.007930,0.000995,0.0111,0.0096,0.0659,0.1358
