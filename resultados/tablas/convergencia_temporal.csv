@@ -1,4 +1,4 @@
-Balón,dt grueso (s),dt fino (s),Diferencia RMS (m),Orden convergencia p
+Balón,dt grande (s),dt pequeño (s),Diferencia RMS (m),Orden convergencia p
 Tenis,0.004,0.002,0.006206,
 Tenis,0.002,0.001,0.003101,1.001
 Tenis,0.001,0.0005,0.001550,1.000

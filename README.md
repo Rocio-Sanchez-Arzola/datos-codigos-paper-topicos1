@@ -6,38 +6,48 @@ Este repositorio contiene los códigos para las simulaciones, cálculo de la pro
 
 ## Archivos del Repositorio
 
-* **`propagación_de_errores_tópicos.py`**: Script de Python que calcula la densidad del aire, el parámetro de arrastre ($B$), con sus respectivas propagaciones de incertidumbres, el ajuste de los datos experimentales para determinar las velocidades iniciales de cada medición, aplicación de RMSE 2D y el error porcentual asociado al alcance horizontal y altura máxima de los lanzamientos.
-* **`voley.csv`**: Datos experimentales (tiempo y posición en X e Y medida en píxeles) entregados por el software Vernier Video Analysis al trackear la trayectoria de la pelota de vóleibol.
-* **`tenis.csv`**: Datos experimentales (tiempo y posición en X e Y medida en píxeles) entregados por el software Vernier Video Analysis al trackear la trayectoria de la pelota de tenis.
-* **`pingpong.csv`**: Datos experimentales (tiempo y posición en X e Y medida en píxeles) entregados por el software Vernier Video Analysis al trackear la trayectoria de la pelota de pingpong.
+### Códigos 
 
----
+- **`Graficos_errores_pingpong.ipynb`**: procesamiento de datos, estimación de velocidad inicial, simulaciones y propagación de incertidumbres de la pelota de ping-pong.
+- **`Graficos_errores_tenis.ipynb`**: mismo análisis para la pelota de tenis.
+- **`Graficos_errores_voley.ipynb`**: mismo análisis para la pelota de vóleibol.
+
+### Datos experimentales
+
+- **`datos/pingpong.csv`**: registro experimental de la pelota de ping-pong.
+- **`datos/tenis.csv`**: registro experimental de la pelota de tenis.
+- **`datos/voley.csv`**: registro experimental de la pelota de vóleibol.
+
+### Tablas de Resultados 
+
+- **`velocidades_iniciales.csv`**: componentes de la velocidad inicial \(v_{x0}\), \(v_{y0}\), magnitud \(|v_0|\) e incertidumbre.
+- **`comparacion_modelos.csv`**: parámetro \(B\), incertidumbre \(\delta B\) y RMSE de los modelos con y sin roce.
+- **`convergencia_temporal.csv`**: comparación de pasos temporales sucesivos, diferencias RMS entre simulaciones y orden de convergencia.
+
+Estas tablas resumen los valores obtenidos mediante los códigos, no contienen resultados adicionales.
 
 ##  Requisitos e Instalación
 
 El código está escrito en **Python 3** haciendo uso de las siguientes librerías:
 
-* `pandas`
-* `numpy`
-* `matplotlib`
+- `numpy`
+- `pandas`
+- `matplotlib`
+- Jupyter Notebook o Google Colab para abrir los archivos `.ipynb`
 
-Para instalarlas se puede ejecutar lo siguiente en la terminal:
+Instalación de las librerías principales:
 
 ```bash
-pip install pandas numpy matplotlib
+pip install numpy pandas matplotlib notebook
 ```
 
 ---
 
 ##  Instrucciones de Ejecución
 
-1. **Clonar o descargar** el repositorio asegurándote de mantener el script `.py` y los tres archivos `.csv` en la misma carpeta raíz.
-2. **Ejecutar el script** desde la terminal o entorno de desarrollo:
+1. Descargar o clonar el repositorio.
+2. Comprobar que los archivos experimentales estén en la carpeta **`datos/`**, tal como indican las rutas `ARCHIVO` de los notebooks.
+3. Abrir el notebook correspondiente a la pelota que se desea analizar.
+4. Ejecutar las celdas en orden, desde el inicio.
+5. Revisar los resultados numéricos, los gráficos de trayectoria e incertidumbre y el análisis de convergencia.
 
-   ```bash
-   python propagación_de_errores_tópicos.py
-   ```
-
-   *(También es compatible con plataformas en la nube como Google Colab).*
-
-3. **Resultados esperados:** La ejecución mostrará los datos presentes en el Cuadro 2 y desplegará los gráficos presentes en el artículo.
