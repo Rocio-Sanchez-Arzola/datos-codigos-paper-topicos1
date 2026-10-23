@@ -207,7 +207,7 @@ y_sup = np.maximum(yb, ya)
 
 
 #Función para calcular el error RMS entre las simulaciones y trayectorias exp
-def rmse_2d(ts, xs, ys):e
+def rmse_2d(ts, xs, ys):
     #interpola las posiciones simuladas en los tiempos experimentales
     xi = np.interp(t, ts, xs)
     yi = np.interp(t, ts, ys)
